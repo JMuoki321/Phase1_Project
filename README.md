@@ -16,7 +16,7 @@ After handling missing fatality values, the dataset was reduced to 2,488 rows.
 Missing values in categorical columns were filled with ‘Unknown’ to preserve the dataset.
 The data is stored as objects, so it needs to be converted to numeric values in order to analyze accidents over time. Target columns are the accident date and the fatalities.
 Successfully dropped 1225 duplicates.
-Since our main objective is to identify the lower risk aircraft, create a year column which will help us to compare accident risks overtime (1962-2023), show whether safety has improved over the years and be able support our recommendations.
+Since our main objective is to identify the lower risk aircraft, create a year column which will help us to compare accident risks overtime (2018-2022), show whether safety has improved over the years and be able support our recommendations.
 ## Data Analysis
 Aircraft Type vs Fatalities analysis because the company wants to know which aircraft are lowest risk
 Aircraft types with the highest total fatalities were visualized to highlight higher-risk options. 
@@ -29,7 +29,7 @@ Fatality counts reflect severity, not frequency of accidents
 Aviation fatalities show a clear downward trend over recent years
 This suggests improvements in safety standards, technology, and regulations
 A slight recent increase highlights the need for continued safety focus
-## Visualization Two Insights
+## Visualization Three Insights
 Some aircraft types are involved in accidents more frequently
 High accident counts may reflect higher usage rather than higher risk
 Frequency of accidents does not always correlate with fatal outcomes
